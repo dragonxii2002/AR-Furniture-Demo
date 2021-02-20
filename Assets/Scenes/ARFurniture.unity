@@ -629,7 +629,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b9d30fc3d9cc9214d9d5056df5b61880, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  furniture: {fileID: 3101304879195787139, guid: 9825433b205a9e5469112c050c709784, type: 3}
+  furniture: {fileID: 8896082793147042494, guid: 2b16c7de50375d34494bb12d83b149e6, type: 3}
 --- !u!114 &882558789
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -764,7 +764,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b9d30fc3d9cc9214d9d5056df5b61880, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  furniture: {fileID: 544203490433689208, guid: 7b6d1cf14f7accb4d9a1cf919498bbcf, type: 3}
+  furniture: {fileID: 8982372341541005990, guid: 22bb825ec5acfb644bb1ab6d5c598855, type: 3}
 --- !u!114 &898170305
 MonoBehaviour:
   m_ObjectHideFlags: 0
