@@ -1,6 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AddressableAssets;
+using System.Threading.Tasks;
+using System;
 
 public class DataHandler : MonoBehaviour
 {
@@ -8,7 +11,8 @@ public class DataHandler : MonoBehaviour
 
     [SerializeField] private ButtonManager buttonPrefab;
     [SerializeField] private GameObject buttonContainer;
-    [SerializeField] private List<Item> items;
+    [SerializeField] private List<Item> _items;
+    [SerializeField] private String label;
 
     private int current_id = 0;
 
@@ -25,24 +29,25 @@ public class DataHandler : MonoBehaviour
         }
     }
 
-    private void Start()
+    private async void Start()
     {
-        LoadItems();
+        //LoadItems();
+        await Get(label);
         CreateButtons();
     }
 
-    void LoadItems()
-    {
-        var items_obj = Resources.LoadAll("Items", typeof(Item));
-        foreach (var item in items_obj)
-        {
-            items.Add(item as Item);
-        }
-    }
+    //void LoadItems()
+    //{
+    //    var items_obj = Resources.LoadAll("Items", typeof(Item));
+    //    foreach (var item in items_obj)
+    //    {
+    //        items.Add(item as Item);
+    //    }
+    //}
 
     void CreateButtons()
     {
-        foreach (Item i in items)
+        foreach (Item i in _items)
         {
             ButtonManager b = Instantiate(buttonPrefab, buttonContainer.transform);
             b.ItemId = current_id;
@@ -53,11 +58,21 @@ public class DataHandler : MonoBehaviour
 
     public void SetFurniture(int id)
     {
-        furniture = items[id].itemPrefab;
+        furniture = _items[id].itemPrefab;
     }
 
     public GameObject GetFurniture() //make the private GameObject to Public
     {
         return furniture;
+    }
+
+    public async Task Get(String label)
+    {
+        var locations = await Addressables.LoadResourceLocationsAsync(label).Task;      //using async, "await" is needed in the script
+        foreach (var location in locations)
+        {
+            var obj = await Addressables.LoadAssetAsync<Item>(location).Task;       //Create an object using that location
+            _items.Add(obj);
+        }
     }
 }
