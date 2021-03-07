@@ -368,8 +368,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8116086783709001267}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -209.89886, y: 249.07353, z: -12.944595}
-  m_LocalScale: {x: 0.007, y: 0.007, z: 0.007}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.008, y: 0.008, z: 0.008}
   m_Children:
   - {fileID: 4118644721999549287}
   - {fileID: 5894884716229367667}
@@ -395,41 +395,16 @@ MonoBehaviour:
   m_InteractionLayerMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_CustomReticle: {fileID: 0}
-  m_FirstHoverEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  m_LastHoverExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_HoverEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  m_HoverExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_SelectEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  m_SelectExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Activated:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Deactivated:
-    m_PersistentCalls:
-      m_Calls: []
   m_OnFirstHoverEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnLastHoverExited:
     m_PersistentCalls:
       m_Calls: []
   m_OnHoverEntered:
     m_PersistentCalls:
       m_Calls: []
   m_OnHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnLastHoverExited:
     m_PersistentCalls:
       m_Calls: []
   m_OnSelectEntered:
@@ -447,6 +422,7 @@ MonoBehaviour:
   m_OnDeactivate:
     m_PersistentCalls:
       m_Calls: []
+  m_CustomReticle: {fileID: 0}
   m_SelectionVisualization: {fileID: 990745178228288707}
 --- !u!114 &2176595629974659942
 MonoBehaviour:
@@ -465,41 +441,16 @@ MonoBehaviour:
   m_InteractionLayerMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_CustomReticle: {fileID: 0}
-  m_FirstHoverEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  m_LastHoverExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_HoverEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  m_HoverExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_SelectEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  m_SelectExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Activated:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Deactivated:
-    m_PersistentCalls:
-      m_Calls: []
   m_OnFirstHoverEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnLastHoverExited:
     m_PersistentCalls:
       m_Calls: []
   m_OnHoverEntered:
     m_PersistentCalls:
       m_Calls: []
   m_OnHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnLastHoverExited:
     m_PersistentCalls:
       m_Calls: []
   m_OnSelectEntered:
@@ -517,6 +468,7 @@ MonoBehaviour:
   m_OnDeactivate:
     m_PersistentCalls:
       m_Calls: []
+  m_CustomReticle: {fileID: 0}
   m_ObjectGestureTranslationMode: 0
   m_MaxTranslationDistance: 10
 --- !u!114 &3156961611132750640
@@ -536,41 +488,16 @@ MonoBehaviour:
   m_InteractionLayerMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_CustomReticle: {fileID: 0}
-  m_FirstHoverEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  m_LastHoverExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_HoverEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  m_HoverExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_SelectEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  m_SelectExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Activated:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Deactivated:
-    m_PersistentCalls:
-      m_Calls: []
   m_OnFirstHoverEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnLastHoverExited:
     m_PersistentCalls:
       m_Calls: []
   m_OnHoverEntered:
     m_PersistentCalls:
       m_Calls: []
   m_OnHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnLastHoverExited:
     m_PersistentCalls:
       m_Calls: []
   m_OnSelectEntered:
@@ -588,6 +515,7 @@ MonoBehaviour:
   m_OnDeactivate:
     m_PersistentCalls:
       m_Calls: []
+  m_CustomReticle: {fileID: 0}
   m_RotationRateDegreesDrag: 100
   m_RotationRateDegreesTwist: 2.5
 --- !u!114 &7113462743425036697
@@ -607,41 +535,16 @@ MonoBehaviour:
   m_InteractionLayerMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_CustomReticle: {fileID: 0}
-  m_FirstHoverEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  m_LastHoverExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_HoverEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  m_HoverExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_SelectEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  m_SelectExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Activated:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Deactivated:
-    m_PersistentCalls:
-      m_Calls: []
   m_OnFirstHoverEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnLastHoverExited:
     m_PersistentCalls:
       m_Calls: []
   m_OnHoverEntered:
     m_PersistentCalls:
       m_Calls: []
   m_OnHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnLastHoverExited:
     m_PersistentCalls:
       m_Calls: []
   m_OnSelectEntered:
@@ -659,6 +562,7 @@ MonoBehaviour:
   m_OnDeactivate:
     m_PersistentCalls:
       m_Calls: []
+  m_CustomReticle: {fileID: 0}
   m_MinScale: 0.75
   m_MaxScale: 1.75
   m_ElasticRatioLimit: 0
